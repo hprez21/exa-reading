@@ -224,3 +224,96 @@ footer .tip { font-size: 0.85rem; color: #636e72; margin-top: 8px; }
   .match-grid { grid-template-columns: 1fr; }
   .activity { padding: 18px; }
 }
+
+/* ============== SPANISH HELP ============== */
+.es-toggle {
+  display: inline-block;
+  margin-top: 14px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 2px solid rgba(255,255,255,0.6);
+  padding: 9px 22px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+.es-toggle:hover { background: rgba(255,255,255,0.35); }
+.es-toggle.es-on {
+  background: #00b894;
+  border-color: #00b894;
+  box-shadow: 0 3px 12px rgba(0,184,148,0.5);
+}
+
+/* Spanish boxes — hidden by default, JS shows them */
+.es-box { display: none; }
+
+.instr-es {
+  background: #e8f5e9;
+  border-left: 5px solid #43a047;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+  font-size: 0.97rem;
+  color: #1b5e20;
+}
+
+.story-es-box {
+  background: #e3f2fd;
+  border-left: 5px solid #1e88e5;
+  color: #0d47a1;
+}
+.story-es-box h3 { color: #1565c0; }
+
+.q-es {
+  background: #f3e5f5;
+  border-left: 4px solid #ab47bc;
+  padding: 7px 12px;
+  border-radius: 8px;
+  margin: 6px 0 10px 0;
+  font-size: 0.95rem;
+  color: #4a148c;
+}
+
+.match-word-es {
+  background: #f9fbe7;
+  border-left: 4px solid #aed581;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #33691e;
+  font-weight: normal;
+}
+
+.sec-heading { margin: 20px 0 6px; color: #6c5ce7; }
+.sec-heading-es {
+  background: #fce4ec;
+  border-left: 4px solid #e91e63;
+  padding: 5px 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: #880e4f;
+}
+
+/* Vocabulary tooltip: dotted underline on hover-able words */
+.vt {
+  border-bottom: 2px dotted #6c5ce7;
+  cursor: help;
+}
+
+.word-bank {
+  background: #fff3e0;
+  border: 2px dashed #ff9800;
+  border-radius: 12px;
+  padding: 12px 18px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e65100;
+}
+
